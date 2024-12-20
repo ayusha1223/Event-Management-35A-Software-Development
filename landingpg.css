@@ -1,0 +1,124 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *{
+    font-family: 'Baskervville';
+  }
+  
+  /* Header Styling */
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FAF5F0;
+  }
+  .logo img {
+    height: 100px; 
+    width: auto;
+    padding-left: 10%;
+    
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 75px;
+    padding-left: 100%;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #814c24;
+    font-weight: bold;
+    padding: 100%;
+    font-size: 15px;
+    font-family: sans;
+
+  }
+  /* White Box */
+  .white-box {
+    background-color: #FAF5F0;
+    height: 50vh; 
+    width:100%;
+  }
+  
+  /* Beige Box */
+  .beige-box {
+    background-color: #c9b5a8;
+    height: 50vh; 
+    width:100%;
+  }
+  
+  /* Picture Box */
+  .picture-box {
+    position: absolute;
+    top: 20vh; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('landingpc.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 75vh; 
+    width: 90%; 
+    padding: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  /* Hero Text Box */
+  .hero-overlay {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    position: relative;
+    align-self: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto; 
+  }
+  
+  .hero-overlay h1 {
+    font-size: 36px;
+    color: #814c24;
+    margin-bottom: 10px;
+    font-family: ;
+  }
+  
+  .hero-overlay p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .hero-overlay button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #814c24;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-overlay button:hover {
+    background-color: #a38d75;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
