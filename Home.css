@@ -1,0 +1,129 @@
+body, h1, p, ul, li, img, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Baskerville", serif;
+    background-color: #faf9f8;
+    color: #333;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: absolute;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 75px;
+    padding-left: 100%;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #814c24;
+    font-weight: bold;
+    padding: 100%;
+    font-size: 15px;
+    font-family: sans;
+
+  }
+
+main {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.events h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #7a6456;
+    margin-top: 40px;
+}
+.logo img {
+    width: 110px; 
+    height: 140px;
+    border-radius: 50%;
+}
+.rectangle {
+    background-color: #faf6ec;
+    padding: 40px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px auto;
+    width: 70%;
+    max-width: 1100px;
+    height: 270px;
+}
+
+
+.event-category {
+    position: relative;
+    width: 180px; 
+    height: 180px;
+    text-align: center;
+}
+
+.event-category img {
+    width: 130%;
+    height: 130%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.event-category button {
+    background-color: #c1a27e;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.personal {
+    position: absolute;
+    left: 5%; 
+    transform: translate(-50%, 0);
+}
+
+.professional {
+    z-index: 2;
+    margin: 0 10px; 
+}
+
+.charity {
+    position: absolute;
+    right: 5%;
+    transform: translate(50%, 0);
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: #c1a27e;
+    font-weight: bold;
+}
+
+
+
+
+
+
